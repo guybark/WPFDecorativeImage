@@ -31,7 +31,7 @@ namespace WPFDecorativeImage
         {
         }
 
-        // Returninf false from IsControlElementCore will remove the image
+        // Returning false from IsControlElementCore will remove the image
         // from the Control view of the UIA tree.
         protected override bool IsControlElementCore()
         {
